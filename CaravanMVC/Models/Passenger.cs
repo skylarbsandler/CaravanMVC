@@ -9,9 +9,9 @@
         public Wagon Wagon { get; set; }
         public int? WagonId { get; set; }
 
-        public Passenger()
-        {
-            WagonId = Wagon.Id;
-        }
+        //public Passenger()
+        //{
+        //    WagonId = Wagon.Id;
+        //}
     }
 }
