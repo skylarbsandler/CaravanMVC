@@ -9,10 +9,9 @@
         public Wagon Wagon { get; set; }
         public int? WagonId { get; set; }
 
-        public Passenger(int wagonId)
+        public Passenger()
         {
             WagonId = Wagon.Id;
-            wagonId = wagonId;
         }
     }
 }
