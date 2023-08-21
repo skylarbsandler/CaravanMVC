@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Wagon>
+
+<h1>Wagons</h1>
+
+@foreach (var wagon in Model)
+{
+    <div class="wagon-info">
+        <p>Name: <a href="/wagons/@wagon.Id">@wagon.Name</a></p>
+    </div>
+}
